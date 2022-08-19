@@ -1,0 +1,89 @@
+body{
+    background-color: #313131;
+}
+.outer{
+    display: block;
+    width: 30rem;
+    height: 10rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 12px;
+    position: relative;
+}
+
+.top{
+    color: white;
+    font-weight: bold;
+}
+
+.top::after{
+    content: "";
+    width: 100%;
+    height: 0.15rem;
+    background-color: #fff;
+    top: 2.2rem;
+    left: 0.01rem;
+    position: absolute;
+}
+
+#left, #right, #right-most{
+    background-color: rgb(98,172,185);
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#word{
+    color: rgb(98,172,185);
+    border-radius: 6px;
+}
+
+.bottom{
+    margin-top: 15px;
+    color: #fff;
+    padding-bottom: 15px;
+    line-height: 2.5rem;
+}
+
+/* optional page  */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#top{
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lexend Deca', sans-serif;
+    display: block;
+    width: 48rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+#green{
+    background-color: rgb(56,181,74);
+    border-radius: 4px;
+}
+
+#orange{
+    background-color: rgb(251,176,59);
+    border-radius: 4px;
+}
+
+#red{
+    background-color: rgb(193,40,46);
+    border-radius: 4px;
+}
+
+#image{
+    margin-top: 1rem;
+}
+
+
+
+
